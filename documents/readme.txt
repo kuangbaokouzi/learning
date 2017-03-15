@@ -29,3 +29,7 @@ git reset HEAD file 可以把暂存区的修改撤销掉，重新放回工作区
 创建远程仓库
 在Git Bash 下创建SSH Key：在用户主目录下（C:\Users\gohin\.ssh）
 ssh-keygen -t rsa -C "35773597@qq.com"
+
+在github上创建好关联公钥的项目后，在本地git仓库目录下运行下列命令：
+git remote add origin git@github.com:kuangbaokouzi/mygit.git
+git push -u origin master
