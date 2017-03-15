@@ -35,3 +35,13 @@ git remote add origin git@github.com:kuangbaokouzi/mygit.git
 git push -u origin master
 
 使用sourcetree推送本地仓库到远程服务器需要设置工具选项中的ssh秘钥
+
+创建分支
+创建dev分支，然后切换到dev分支
+git checkout -b dev
+相当于下面两条命令
+git branch dev --创建分支
+git checkout dev --切换到dev分支
+
+查看当前分支
+git branch
