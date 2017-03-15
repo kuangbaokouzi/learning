@@ -27,5 +27,5 @@ git checkout -- file 让文件回到最近一次git commit 或git add时的状�
 git reset HEAD file 可以把暂存区的修改撤销掉，重新放回工作区‘
 
 创建远程仓库
-在Git Bash 下创建SSH Key：
+在Git Bash 下创建SSH Key：在用户主目录下（C:\Users\gohin\.ssh）
 ssh-keygen -t rsa -C "35773597@qq.com"
