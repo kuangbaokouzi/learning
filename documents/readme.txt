@@ -33,3 +33,5 @@ ssh-keygen -t rsa -C "35773597@qq.com"
 在github上创建好关联公钥的项目后，在本地git仓库目录下运行下列命令：
 git remote add origin git@github.com:kuangbaokouzi/mygit.git
 git push -u origin master
+
+使用sourcetree推送本地仓库到远程服务器需要设置工具选项中的ssh秘钥
