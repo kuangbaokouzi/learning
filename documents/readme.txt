@@ -45,3 +45,6 @@ git checkout dev --切换到dev分支
 
 查看当前分支
 git branch
+
+合并指定分支到当前分支
+git merge dev
