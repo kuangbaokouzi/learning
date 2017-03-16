@@ -47,4 +47,5 @@ git checkout dev --切换到dev分支
 git branch
 
 合并指定分支到当前分支
-git merge dev
+git merge dev（先使用checkout切换分支）
+git
