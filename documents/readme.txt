@@ -48,4 +48,6 @@ git branch
 
 合并指定分支到当前分支
 git merge dev（先使用checkout切换分支）
-git
+
+删除合并后不需要的分支
+git branch -d dev
