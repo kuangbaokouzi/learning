@@ -1,6 +1,10 @@
 Git is a distributed version control system.
 Git is a free software.
 
+创建用户
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
 git 命令
 git init 在仓库目录下创建一个.git目录，这个目录就是用来跟踪版本库的
 git add 添加指定文件（该文件应该在仓库根目录或者其子目录下）
