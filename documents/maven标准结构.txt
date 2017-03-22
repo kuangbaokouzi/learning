@@ -1,0 +1,69 @@
+  1.标准目录结构：
+
+
+src
+  -main
+      –bin 脚本库
+      –java java源代码文件
+      –resources 资源库，会自动复制到classes目录里
+      –filters 资源过滤文件
+      –assembly 组件的描述配置（如何打包）
+      –config 配置文件
+      –webapp web应用的目录。WEB-INF、css、js等
+  -test
+      –java 单元测试java源代码文件
+      –resources 测试需要用的资源库
+      –filters 测试资源过滤库
+  -site Site（一些文档）
+target
+LICENSE.txt Project’s license
+README.txt Project’s readme
+
+工程根目录下就只有src和target两个目录
+
+target是有存放项目构建后的文件和目录，jar包、war包、编译的class文件等。
+
+target里的所有内容都是maven构建的时候生成的
+
+参照：http://breath.iteye.com/blog/1005447
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+Maven项目的标准目录介绍
+
+
+Maven提倡使用一个共同的标准目录结构，使开发人员能在熟悉了一个Maven工程后，对其他的Maven工程也能清晰了解。这样做也省去了很多设置的麻烦。
+
+以下的文档介绍是Maven希望的目录结构，并且也是目录创建工程是采用的目录结构。Maven推荐大家尽可能的遵守这样的目录结构。
+
+src/main/Java：Application/Library sources
+
+src/main/resources：Application/Library resources
+
+src/main/filters：Resource filter files
+
+src/main/assembly：Assembly descriptors
+
+src/main/config：Configuration files
+
+src/main/webapps：Web application sources
+
+src/test/java：Test sources
+
+src/test/resources：Test resources
+
+src/test/filters：Test resource filter files
+
+src/site：Site
+
+LICENSE.txt：Project's license
+
+README.txt：Project's readme
+
+在顶级目录上是工程的描述文件pom.xml（如果使用Ant则还包括其他属性文件，maven.xml或build.xml）,另外还包括提供给最终用户的文件，如，README.txt, LICENSE.txt等等。
+
+顶级目录还包括两个子目录：src，target。顶级目录下可能出现的其他目录仅仅是CVS或.svn和其他多模块工程的工程目录，最好不要再有其他目录。
+
+Target目录是所有工程编译构建的输出目录。
+
+Src目录包含所有工程的源码文件，配置文件，资源文件等等。它下面的子目录一般包含main（主要的工程源文件），test（测试文件），site（项目站点文件）。
