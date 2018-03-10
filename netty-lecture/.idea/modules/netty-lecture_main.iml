@@ -4,7 +4,7 @@
     <facet type="web" name="Web Gradle : netty-lecture-1.0.war">
       <configuration>
         <webroots>
-          <root url="file://D:\IdeaProjects\netty-lecture\src\main\webapp" relative="/" />
+          <root url="file://D:\mygit\netty-lecture\src\main\webapp" relative="/" />
         </webroots>
       </configuration>
     </facet>
