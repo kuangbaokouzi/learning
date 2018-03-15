@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradlew-lecture.iml" filepath="$PROJECT_DIR$/.idea/modules/gradlew-lecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradlew-lecture_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradlew-lecture_main.iml" group="gradlew-lecture" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradlew-lecture_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradlew-lecture_test.iml" group="gradlew-lecture" />
+    </modules>
+  </component>
+</project>
