@@ -4,7 +4,7 @@
  * DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
  *  @generated
  */
-package thrift.generated;
+package com.laowuandhisfriends.thrift.generated;
 
 import org.apache.thrift.scheme.IScheme;
 import org.apache.thrift.scheme.SchemeFactory;
@@ -36,17 +36,17 @@ public class PersonService {
 
   public interface Iface {
 
-    public Person getPersonByUsername(String username) throws DataException, org.apache.thrift.TException;
+    public Person getPersonByUsername(String username) throws DataException, TException;
 
-    public void savePerson(Person person) throws DataException, org.apache.thrift.TException;
+    public void savePerson(Person person) throws DataException, TException;
 
   }
 
   public interface AsyncIface {
 
-    public void getPersonByUsername(String username, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+    public void getPersonByUsername(String username, AsyncMethodCallback resultHandler) throws TException;
 
-    public void savePerson(Person person, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+    public void savePerson(Person person, AsyncMethodCallback resultHandler) throws TException;
 
   }
 
@@ -70,20 +70,20 @@ public class PersonService {
       super(iprot, oprot);
     }
 
-    public Person getPersonByUsername(String username) throws DataException, org.apache.thrift.TException
+    public Person getPersonByUsername(String username) throws DataException, TException
     {
       send_getPersonByUsername(username);
       return recv_getPersonByUsername();
     }
 
-    public void send_getPersonByUsername(String username) throws org.apache.thrift.TException
+    public void send_getPersonByUsername(String username) throws TException
     {
       getPersonByUsername_args args = new getPersonByUsername_args();
       args.setUsername(username);
       sendBase("getPersonByUsername", args);
     }
 
-    public Person recv_getPersonByUsername() throws DataException, org.apache.thrift.TException
+    public Person recv_getPersonByUsername() throws DataException, TException
     {
       getPersonByUsername_result result = new getPersonByUsername_result();
       receiveBase(result, "getPersonByUsername");
@@ -96,20 +96,20 @@ public class PersonService {
       throw new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.MISSING_RESULT, "getPersonByUsername failed: unknown result");
     }
 
-    public void savePerson(Person person) throws DataException, org.apache.thrift.TException
+    public void savePerson(Person person) throws DataException, TException
     {
       send_savePerson(person);
       recv_savePerson();
     }
 
-    public void send_savePerson(Person person) throws org.apache.thrift.TException
+    public void send_savePerson(Person person) throws TException
     {
       savePerson_args args = new savePerson_args();
       args.setPerson(person);
       sendBase("savePerson", args);
     }
 
-    public void recv_savePerson() throws DataException, org.apache.thrift.TException
+    public void recv_savePerson() throws DataException, TException
     {
       savePerson_result result = new savePerson_result();
       receiveBase(result, "savePerson");
@@ -137,7 +137,7 @@ public class PersonService {
       super(protocolFactory, clientManager, transport);
     }
 
-    public void getPersonByUsername(String username, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+    public void getPersonByUsername(String username, AsyncMethodCallback resultHandler) throws TException {
       checkReady();
       getPersonByUsername_call method_call = new getPersonByUsername_call(username, resultHandler, this, ___protocolFactory, ___transport);
       this.___currentMethod = method_call;
@@ -146,12 +146,12 @@ public class PersonService {
 
     public static class getPersonByUsername_call extends org.apache.thrift.async.TAsyncMethodCall {
       private String username;
-      public getPersonByUsername_call(String username, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+      public getPersonByUsername_call(String username, AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws TException {
         super(client, protocolFactory, transport, resultHandler, false);
         this.username = username;
       }
 
-      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws TException {
         prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("getPersonByUsername", org.apache.thrift.protocol.TMessageType.CALL, 0));
         getPersonByUsername_args args = new getPersonByUsername_args();
         args.setUsername(username);
@@ -159,8 +159,8 @@ public class PersonService {
         prot.writeMessageEnd();
       }
 
-      public Person getResult() throws DataException, org.apache.thrift.TException {
-        if (getState() != org.apache.thrift.async.TAsyncMethodCall.State.RESPONSE_READ) {
+      public Person getResult() throws DataException, TException {
+        if (getState() != State.RESPONSE_READ) {
           throw new IllegalStateException("Method call not finished!");
         }
         org.apache.thrift.transport.TMemoryInputTransport memoryTransport = new org.apache.thrift.transport.TMemoryInputTransport(getFrameBuffer().array());
@@ -169,7 +169,7 @@ public class PersonService {
       }
     }
 
-    public void savePerson(Person person, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+    public void savePerson(Person person, AsyncMethodCallback resultHandler) throws TException {
       checkReady();
       savePerson_call method_call = new savePerson_call(person, resultHandler, this, ___protocolFactory, ___transport);
       this.___currentMethod = method_call;
@@ -178,12 +178,12 @@ public class PersonService {
 
     public static class savePerson_call extends org.apache.thrift.async.TAsyncMethodCall {
       private Person person;
-      public savePerson_call(Person person, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+      public savePerson_call(Person person, AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws TException {
         super(client, protocolFactory, transport, resultHandler, false);
         this.person = person;
       }
 
-      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws TException {
         prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("savePerson", org.apache.thrift.protocol.TMessageType.CALL, 0));
         savePerson_args args = new savePerson_args();
         args.setPerson(person);
@@ -191,13 +191,14 @@ public class PersonService {
         prot.writeMessageEnd();
       }
 
-      public void getResult() throws DataException, org.apache.thrift.TException {
-        if (getState() != org.apache.thrift.async.TAsyncMethodCall.State.RESPONSE_READ) {
+      public Object getResult() throws DataException, TException {
+        if (getState() != State.RESPONSE_READ) {
           throw new IllegalStateException("Method call not finished!");
         }
         org.apache.thrift.transport.TMemoryInputTransport memoryTransport = new org.apache.thrift.transport.TMemoryInputTransport(getFrameBuffer().array());
         org.apache.thrift.protocol.TProtocol prot = client.getProtocolFactory().getProtocol(memoryTransport);
         (new Client(prot)).recv_savePerson();
+        return null;
       }
     }
 
@@ -232,7 +233,7 @@ public class PersonService {
         return false;
       }
 
-      public getPersonByUsername_result getResult(I iface, getPersonByUsername_args args) throws org.apache.thrift.TException {
+      public getPersonByUsername_result getResult(I iface, getPersonByUsername_args args) throws TException {
         getPersonByUsername_result result = new getPersonByUsername_result();
         try {
           result.success = iface.getPersonByUsername(args.username);
@@ -256,7 +257,7 @@ public class PersonService {
         return false;
       }
 
-      public savePerson_result getResult(I iface, savePerson_args args) throws org.apache.thrift.TException {
+      public savePerson_result getResult(I iface, savePerson_args args) throws TException {
         savePerson_result result = new savePerson_result();
         try {
           iface.savePerson(args.person);
@@ -337,7 +338,7 @@ public class PersonService {
         return false;
       }
 
-      public void start(I iface, getPersonByUsername_args args, org.apache.thrift.async.AsyncMethodCallback<Person> resultHandler) throws TException {
+      public void start(I iface, getPersonByUsername_args args, AsyncMethodCallback<Person> resultHandler) throws TException {
         iface.getPersonByUsername(args.username,resultHandler);
       }
     }
@@ -393,7 +394,7 @@ public class PersonService {
         return false;
       }
 
-      public void start(I iface, savePerson_args args, org.apache.thrift.async.AsyncMethodCallback<Void> resultHandler) throws TException {
+      public void start(I iface, savePerson_args args, AsyncMethodCallback<Void> resultHandler) throws TException {
         iface.savePerson(args.person,resultHandler);
       }
     }
@@ -623,11 +624,11 @@ public class PersonService {
       return _Fields.findByThriftId(fieldId);
     }
 
-    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {
+    public void read(org.apache.thrift.protocol.TProtocol iprot) throws TException {
       schemes.get(iprot.getScheme()).getScheme().read(iprot, this);
     }
 
-    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {
+    public void write(org.apache.thrift.protocol.TProtocol oprot) throws TException {
       schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
     }
 
@@ -647,10 +648,10 @@ public class PersonService {
       return sb.toString();
     }
 
-    public void validate() throws org.apache.thrift.TException {
+    public void validate() throws TException {
       // check for required fields
       if (username == null) {
-        throw new org.apache.thrift.protocol.TProtocolException("Required field 'username' was not present! Struct: " + toString());
+        throw new TProtocolException("Required field 'username' was not present! Struct: " + toString());
       }
       // check for sub-struct validity
     }
@@ -658,7 +659,7 @@ public class PersonService {
     private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
       try {
         write(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(out)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -666,7 +667,7 @@ public class PersonService {
     private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {
       try {
         read(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(in)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -679,7 +680,7 @@ public class PersonService {
 
     private static class getPersonByUsername_argsStandardScheme extends StandardScheme<getPersonByUsername_args> {
 
-      public void read(org.apache.thrift.protocol.TProtocol iprot, getPersonByUsername_args struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol iprot, getPersonByUsername_args struct) throws TException {
         org.apache.thrift.protocol.TField schemeField;
         iprot.readStructBegin();
         while (true)
@@ -708,7 +709,7 @@ public class PersonService {
         struct.validate();
       }
 
-      public void write(org.apache.thrift.protocol.TProtocol oprot, getPersonByUsername_args struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol oprot, getPersonByUsername_args struct) throws TException {
         struct.validate();
 
         oprot.writeStructBegin(STRUCT_DESC);
@@ -732,13 +733,13 @@ public class PersonService {
     private static class getPersonByUsername_argsTupleScheme extends TupleScheme<getPersonByUsername_args> {
 
       @Override
-      public void write(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_args struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_args struct) throws TException {
         TTupleProtocol oprot = (TTupleProtocol) prot;
         oprot.writeString(struct.username);
       }
 
       @Override
-      public void read(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_args struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_args struct) throws TException {
         TTupleProtocol iprot = (TTupleProtocol) prot;
         struct.username = iprot.readString();
         struct.setUsernameIsSet(true);
@@ -1039,11 +1040,11 @@ public class PersonService {
       return _Fields.findByThriftId(fieldId);
     }
 
-    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {
+    public void read(org.apache.thrift.protocol.TProtocol iprot) throws TException {
       schemes.get(iprot.getScheme()).getScheme().read(iprot, this);
     }
 
-    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {
+    public void write(org.apache.thrift.protocol.TProtocol oprot) throws TException {
       schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
       }
 
@@ -1071,7 +1072,7 @@ public class PersonService {
       return sb.toString();
     }
 
-    public void validate() throws org.apache.thrift.TException {
+    public void validate() throws TException {
       // check for required fields
       // check for sub-struct validity
       if (success != null) {
@@ -1082,7 +1083,7 @@ public class PersonService {
     private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
       try {
         write(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(out)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1090,7 +1091,7 @@ public class PersonService {
     private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {
       try {
         read(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(in)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1103,7 +1104,7 @@ public class PersonService {
 
     private static class getPersonByUsername_resultStandardScheme extends StandardScheme<getPersonByUsername_result> {
 
-      public void read(org.apache.thrift.protocol.TProtocol iprot, getPersonByUsername_result struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol iprot, getPersonByUsername_result struct) throws TException {
         org.apache.thrift.protocol.TField schemeField;
         iprot.readStructBegin();
         while (true)
@@ -1142,7 +1143,7 @@ public class PersonService {
         struct.validate();
       }
 
-      public void write(org.apache.thrift.protocol.TProtocol oprot, getPersonByUsername_result struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol oprot, getPersonByUsername_result struct) throws TException {
         struct.validate();
 
         oprot.writeStructBegin(STRUCT_DESC);
@@ -1171,7 +1172,7 @@ public class PersonService {
     private static class getPersonByUsername_resultTupleScheme extends TupleScheme<getPersonByUsername_result> {
 
       @Override
-      public void write(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_result struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_result struct) throws TException {
         TTupleProtocol oprot = (TTupleProtocol) prot;
         BitSet optionals = new BitSet();
         if (struct.isSetSuccess()) {
@@ -1190,7 +1191,7 @@ public class PersonService {
       }
 
       @Override
-      public void read(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_result struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol prot, getPersonByUsername_result struct) throws TException {
         TTupleProtocol iprot = (TTupleProtocol) prot;
         BitSet incoming = iprot.readBitSet(2);
         if (incoming.get(0)) {
@@ -1431,11 +1432,11 @@ public class PersonService {
       return _Fields.findByThriftId(fieldId);
     }
 
-    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {
+    public void read(org.apache.thrift.protocol.TProtocol iprot) throws TException {
       schemes.get(iprot.getScheme()).getScheme().read(iprot, this);
     }
 
-    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {
+    public void write(org.apache.thrift.protocol.TProtocol oprot) throws TException {
       schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
     }
 
@@ -1455,10 +1456,10 @@ public class PersonService {
       return sb.toString();
     }
 
-    public void validate() throws org.apache.thrift.TException {
+    public void validate() throws TException {
       // check for required fields
       if (person == null) {
-        throw new org.apache.thrift.protocol.TProtocolException("Required field 'person' was not present! Struct: " + toString());
+        throw new TProtocolException("Required field 'person' was not present! Struct: " + toString());
       }
       // check for sub-struct validity
       if (person != null) {
@@ -1469,7 +1470,7 @@ public class PersonService {
     private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
       try {
         write(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(out)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1477,7 +1478,7 @@ public class PersonService {
     private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {
       try {
         read(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(in)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1490,7 +1491,7 @@ public class PersonService {
 
     private static class savePerson_argsStandardScheme extends StandardScheme<savePerson_args> {
 
-      public void read(org.apache.thrift.protocol.TProtocol iprot, savePerson_args struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol iprot, savePerson_args struct) throws TException {
         org.apache.thrift.protocol.TField schemeField;
         iprot.readStructBegin();
         while (true)
@@ -1520,7 +1521,7 @@ public class PersonService {
         struct.validate();
       }
 
-      public void write(org.apache.thrift.protocol.TProtocol oprot, savePerson_args struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol oprot, savePerson_args struct) throws TException {
         struct.validate();
 
         oprot.writeStructBegin(STRUCT_DESC);
@@ -1544,13 +1545,13 @@ public class PersonService {
     private static class savePerson_argsTupleScheme extends TupleScheme<savePerson_args> {
 
       @Override
-      public void write(org.apache.thrift.protocol.TProtocol prot, savePerson_args struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol prot, savePerson_args struct) throws TException {
         TTupleProtocol oprot = (TTupleProtocol) prot;
         struct.person.write(oprot);
       }
 
       @Override
-      public void read(org.apache.thrift.protocol.TProtocol prot, savePerson_args struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol prot, savePerson_args struct) throws TException {
         TTupleProtocol iprot = (TTupleProtocol) prot;
         struct.person = new Person();
         struct.person.read(iprot);
@@ -1783,11 +1784,11 @@ public class PersonService {
       return _Fields.findByThriftId(fieldId);
     }
 
-    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {
+    public void read(org.apache.thrift.protocol.TProtocol iprot) throws TException {
       schemes.get(iprot.getScheme()).getScheme().read(iprot, this);
     }
 
-    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {
+    public void write(org.apache.thrift.protocol.TProtocol oprot) throws TException {
       schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
       }
 
@@ -1807,7 +1808,7 @@ public class PersonService {
       return sb.toString();
     }
 
-    public void validate() throws org.apache.thrift.TException {
+    public void validate() throws TException {
       // check for required fields
       // check for sub-struct validity
     }
@@ -1815,7 +1816,7 @@ public class PersonService {
     private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
       try {
         write(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(out)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1823,7 +1824,7 @@ public class PersonService {
     private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {
       try {
         read(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(in)));
-      } catch (org.apache.thrift.TException te) {
+      } catch (TException te) {
         throw new java.io.IOException(te);
       }
     }
@@ -1836,7 +1837,7 @@ public class PersonService {
 
     private static class savePerson_resultStandardScheme extends StandardScheme<savePerson_result> {
 
-      public void read(org.apache.thrift.protocol.TProtocol iprot, savePerson_result struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol iprot, savePerson_result struct) throws TException {
         org.apache.thrift.protocol.TField schemeField;
         iprot.readStructBegin();
         while (true)
@@ -1866,7 +1867,7 @@ public class PersonService {
         struct.validate();
       }
 
-      public void write(org.apache.thrift.protocol.TProtocol oprot, savePerson_result struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol oprot, savePerson_result struct) throws TException {
         struct.validate();
 
         oprot.writeStructBegin(STRUCT_DESC);
@@ -1890,7 +1891,7 @@ public class PersonService {
     private static class savePerson_resultTupleScheme extends TupleScheme<savePerson_result> {
 
       @Override
-      public void write(org.apache.thrift.protocol.TProtocol prot, savePerson_result struct) throws org.apache.thrift.TException {
+      public void write(org.apache.thrift.protocol.TProtocol prot, savePerson_result struct) throws TException {
         TTupleProtocol oprot = (TTupleProtocol) prot;
         BitSet optionals = new BitSet();
         if (struct.isSetDataException()) {
@@ -1903,7 +1904,7 @@ public class PersonService {
       }
 
       @Override
-      public void read(org.apache.thrift.protocol.TProtocol prot, savePerson_result struct) throws org.apache.thrift.TException {
+      public void read(org.apache.thrift.protocol.TProtocol prot, savePerson_result struct) throws TException {
         TTupleProtocol iprot = (TTupleProtocol) prot;
         BitSet incoming = iprot.readBitSet(1);
         if (incoming.get(0)) {
