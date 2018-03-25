@@ -5,7 +5,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.util.Random;
 
-public class TestClientHandler extends SimpleChannelInboundHandler<MyDataInfo.MyMessage> {
+public class SixthClientHandler extends SimpleChannelInboundHandler<MyDataInfo.MyMessage> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, MyDataInfo.MyMessage msg) throws Exception {
 

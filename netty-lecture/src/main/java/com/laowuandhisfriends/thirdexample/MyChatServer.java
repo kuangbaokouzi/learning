@@ -1,6 +1,5 @@
 package com.laowuandhisfriends.thirdexample;
 
-import com.laowuandhisfriends.secondexample.MyServerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;

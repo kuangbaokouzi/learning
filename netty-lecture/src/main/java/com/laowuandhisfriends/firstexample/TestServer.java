@@ -21,10 +21,11 @@ public class TestServer {
             // group：设置acceptor（parent）和client（child），用来处理ServerChannel和Channel的所有时间和IO
             // channel：设置Channel实例来源
             // childHandler：子处理，一般是自定义处理器
-            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).childHandler(new TestServerInitializer());
+            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
+                    .childHandler(new TestServerInitializer());
 
             // bind：绑定端口
-            // sync：获取异步IO操作结果
+            // sync：获取sync IO操作结果
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
         } catch (Exception e) {
