@@ -16,4 +16,16 @@ public class City {
     public void setPopulation(int population) {
         this.population = population;
     }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getState() {
+        return state;
+    }
 }

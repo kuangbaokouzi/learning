@@ -65,13 +65,13 @@ public class SpringDITest {
     }
 
     @Test
-    public void testSetMultiplier(){
+    public void testSetMultiplier() {
         SpringDI springDI = (SpringDI) context.getBean("springDI");
         System.out.println(springDI.getMultiplier());
     }
 
     @Test
-    public void testSetRandomNumber(){
+    public void testSetRandomNumber() {
         SpringDI springDI = (SpringDI) context.getBean("springDI");
         System.out.println(springDI.getRandomNumber());
     }

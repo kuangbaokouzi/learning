@@ -5,6 +5,8 @@
       <configuration>
         <fileset id="fileset" name="aaa" removed="false">
           <file>file://$MODULE_DIR$/../../src/main/resources/spring-di.xml</file>
+          <file>file://$MODULE_DIR$/../../src/main/resources/Spring-AOP.xml</file>
+          <file>file://$MODULE_DIR$/../../src/main/resources/Spring-DI-SpEL.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -27,6 +29,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-test:5.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.5.RELEASE" level="project" />
