@@ -17,7 +17,7 @@ public class SpitterDaoImplTest {
 
     @Test
     public void addSpitter() {
-        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao");
+        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao3");
         Spitter spitter = new Spitter();
         spitter.setUsername("Json");
         spitter.setPassword("123");
@@ -27,7 +27,7 @@ public class SpitterDaoImplTest {
 
     @Test
     public void addSpitterAndGetAutoIncreaseId() {
-        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao");
+        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao3");
         Spitter spitter = new Spitter();
         spitter.setUsername("Json");
         spitter.setPassword("123");
@@ -37,7 +37,7 @@ public class SpitterDaoImplTest {
 
     @Test
     public void updateSpitter() {
-        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao");
+        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao3");
         Spitter spitter = new Spitter();
         spitter.setEmail("kouzikaile@gmail.com");
         spitter.setUpdateEmail(false);
@@ -46,7 +46,7 @@ public class SpitterDaoImplTest {
 
     @Test
     public void getSpitterById() {
-        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao");
+        SpitterDao spitterDao = (SpitterDao) context.getBean("spitterDao3");
         System.out.println(spitterDao.getSpitterById(2));
     }
 }

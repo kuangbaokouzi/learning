@@ -48,7 +48,7 @@ public class SpitterDaoImpl extends JdbcDaoSupport implements SpitterDao {
         KeyHolder keyHolder = new GeneratedKeyHolder();
         long autoIncId = 0;
 
-        jdbcTemplate.update(con -> {
+        getJdbcTemplate().update(con -> {
             PreparedStatement ps = con.prepareStatement("insert into spitter(username, password, full_name) values(?,?,?)",
                     PreparedStatement.RETURN_GENERATED_KEYS);
             ps.setString(1, spitter.getUsername());
@@ -63,13 +63,13 @@ public class SpitterDaoImpl extends JdbcDaoSupport implements SpitterDao {
 
     @Override
     public void updateSpitter(Spitter spitter) {
-        jdbcTemplate.update("update spitter set email = ?, update_email = ?",
+        getJdbcTemplate().update("update spitter set email = ?, update_email = ?",
                 spitter.getEmail(), spitter.isUpdateEmail());
     }
 
     @Override
     public Spitter getSpitterById(long id) {
-        return jdbcTemplate.queryForObject("select * from spitter where id = ?", (rs, rowNUm) -> {
+        return getJdbcTemplate().queryForObject("select * from spitter where id = ?", (rs, rowNUm) -> {
             Spitter spitter = new Spitter();
             spitter.setId(rs.getLong(1));
             spitter.setUsername(rs.getString(2));

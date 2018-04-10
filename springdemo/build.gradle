@@ -7,6 +7,14 @@ apply plugin: 'war'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+// important!
+sourceSets {
+    main {
+        output.resourcesDir = file('src/main/webapp/WEB-INF/classes')
+        java.outputDir = file('src/main/webapp/WEB-INF/classes')
+    }
+}
+
 repositories {
     mavenCentral()
 }
@@ -22,6 +30,8 @@ dependencies {
             'org.hibernate:hibernate-core:5.2.16.Final',
             'org.springframework:spring-orm:5.0.5.RELEASE',
             'org.springframework:spring-webmvc:5.0.5.RELEASE',
+            'javax.servlet:javax.servlet-api:3.1.0',
+            'javax.servlet:jstl:1.2',
             'junit:junit:4.12'
     )
 }
