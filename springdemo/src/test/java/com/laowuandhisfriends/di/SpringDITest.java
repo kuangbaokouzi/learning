@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
-@ContextConfiguration({"classpath:Spring-DI-SpEL.xml"})
+@ContextConfiguration({"classpath:config/Spring-DI-SpEL.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class SpringDITest {
 

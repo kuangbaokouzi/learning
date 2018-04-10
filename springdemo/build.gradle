@@ -16,6 +16,12 @@ dependencies {
             'org.springframework:spring-context:5.0.5.RELEASE',
             'org.springframework:spring-test:5.0.5.RELEASE',
             'org.aspectj:aspectjweaver:1.8.13',
+            'org.springframework:spring-jdbc:5.0.5.RELEASE',
+            'org.apache.commons:commons-dbcp2:2.2.0',
+            'mysql:mysql-connector-java:6.0.6',
+            'org.hibernate:hibernate-core:5.2.16.Final',
+            'org.springframework:spring-orm:5.0.5.RELEASE',
+            'org.springframework:spring-webmvc:5.0.5.RELEASE',
             'junit:junit:4.12'
     )
 }

@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
-@ContextConfiguration({"classpath:Spring-AOP-Annotation.xml"})
+@ContextConfiguration({"classpath:config/Spring-AOP-Annotation.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class AOPTAnnoTest {
     @Resource
@@ -24,7 +24,7 @@ public class AOPTAnnoTest {
 
     @Test
     public void testAOPOnMagician() {
-        Volunteer volunteer = (Volunteer) context.getBean("volunteer");
+        Thinker volunteer = (Thinker) context.getBean("volunteer");
         volunteer.thinkOfSomething("Queen of Hearts");
         Assert.assertEquals("Queen of Hearts", ((Magician) context.getBean("magician")).getThoughts());
     }

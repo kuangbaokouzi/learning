@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
-@ContextConfiguration({"classpath:Spring-AOP.xml"})
+@ContextConfiguration({"classpath:config/Spring-AOP.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class AOPTest {
     @Resource

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class Magician implements MindReader {
     private String thoughts;
 
-    @Pointcut(value = "execution(* com.laowuandhisfriends.aop.Thinker.thinkOfSomething(String))" +
+    @Pointcut("execution(* com.laowuandhisfriends.aop.Thinker.thinkOfSomething(String))" +
             " && args(thoughts)")
     public void thinking(String thoughts) {
 

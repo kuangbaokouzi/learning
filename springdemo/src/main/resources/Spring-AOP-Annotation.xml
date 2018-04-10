@@ -13,5 +13,6 @@
 
     <context:component-scan base-package="com.laowuandhisfriends.aop,com.laowuandhisfriends.di"/>
 
-    <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <!-- false: jdk auto proxy(default), true: cglib auto proxy -->
+    <aop:aspectj-autoproxy proxy-target-class="false"/>
 </beans>
