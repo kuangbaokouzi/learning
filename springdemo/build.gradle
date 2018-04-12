@@ -1,5 +1,5 @@
 group 'com.laowuandhisfriends'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 apply plugin: 'java'
 apply plugin: 'war'
@@ -8,12 +8,12 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 // important!
-sourceSets {
+/*sourceSets {
     main {
         output.resourcesDir = file('src/main/webapp/WEB-INF/classes')
         java.outputDir = file('src/main/webapp/WEB-INF/classes')
     }
-}
+}*/
 
 repositories {
     mavenCentral()
@@ -32,6 +32,7 @@ dependencies {
             'org.springframework:spring-webmvc:5.0.5.RELEASE',
             'javax.servlet:javax.servlet-api:3.1.0',
             'javax.servlet:jstl:1.2',
+            'org.apache.tiles:tiles-jsp:3.0.8',
             'junit:junit:4.12',
             'org.mockito:mockito-core:2.7.22'
     )

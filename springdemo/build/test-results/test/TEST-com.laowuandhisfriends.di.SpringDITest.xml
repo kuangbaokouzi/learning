@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.laowuandhisfriends.di.SpringDITest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-04-10T15:51:06" hostname="kouzi" time="0.034">
+<testsuite name="com.laowuandhisfriends.di.SpringDITest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-04-12T09:06:24" hostname="kouzi" time="0.035">
   <properties/>
-  <testcase name="testSetFrequency" classname="com.laowuandhisfriends.di.SpringDITest" time="0.009"/>
+  <testcase name="testSetFrequency" classname="com.laowuandhisfriends.di.SpringDITest" time="0.006"/>
   <testcase name="testCarl" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
-  <testcase name="testSetMessage" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
-  <testcase name="testSetMultiplier" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
+  <testcase name="testSetMessage" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
+  <testcase name="testSetMultiplier" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
   <testcase name="testSetInstrument" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
-  <testcase name="testSetEnabled" classname="com.laowuandhisfriends.di.SpringDITest" time="0.003"/>
-  <testcase name="testSetCapacity" classname="com.laowuandhisfriends.di.SpringDITest" time="0.006"/>
+  <testcase name="testSetEnabled" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
+  <testcase name="testSetCapacity" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
   <testcase name="testSetName" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
-  <testcase name="testSetRandomNumber" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
-  <testcase name="testSetCount" classname="com.laowuandhisfriends.di.SpringDITest" time="0.001"/>
+  <testcase name="testSetRandomNumber" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
+  <testcase name="testSetCount" classname="com.laowuandhisfriends.di.SpringDITest" time="0.002"/>
   <system-out><![CDATA[Playing Jingle Bells : 
 TOOT TOOT TOOT
 3.141592653589793
 null
-0.23556891811774983
+0.40902336143060014
 ]]></system-out>
-  <system-err><![CDATA[四月 10, 2018 11:51:05 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+  <system-err><![CDATA[四月 12, 2018 5:06:23 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-四月 10, 2018 11:51:05 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
-信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b802b6e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55034f7b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@35003a58, org.springframework.test.context.support.DirtiesContextTestExecutionListener@43af76b6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79cefef6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@36f90e23]
-四月 10, 2018 11:51:05 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+四月 12, 2018 5:06:23 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@46a9b7da, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5318255, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7e93b1d4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@43339692, org.springframework.test.context.transaction.TransactionalTestExecutionListener@482ffe49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4105ee33]
+四月 12, 2018 5:06:24 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
 信息: Loading XML bean definitions from class path resource [Spring-DI-SpEL.xml]
-四月 10, 2018 11:51:05 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+四月 12, 2018 5:06:24 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
 信息: Loading XML bean definitions from class path resource [Spring-DI.xml]
-四月 10, 2018 11:51:05 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
-信息: Refreshing org.springframework.context.support.GenericApplicationContext@6ce10ab9: startup date [Tue Apr 10 23:51:05 CST 2018]; root of context hierarchy
+四月 12, 2018 5:06:24 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.GenericApplicationContext@115e0a21: startup date [Thu Apr 12 17:06:24 CST 2018]; root of context hierarchy
 ]]></system-err>
 </testsuite>

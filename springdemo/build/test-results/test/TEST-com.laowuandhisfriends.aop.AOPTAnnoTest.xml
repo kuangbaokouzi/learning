@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.laowuandhisfriends.aop.AOPTAnnoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-04-10T15:51:07" hostname="kouzi" time="0.009">
+<testsuite name="com.laowuandhisfriends.aop.AOPTAnnoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-04-12T09:06:25" hostname="kouzi" time="0.013">
   <properties/>
-  <testcase name="testAOPOnPerformer" classname="com.laowuandhisfriends.aop.AOPTAnnoTest" time="0.001"/>
-  <testcase name="testAOPOnMagician" classname="com.laowuandhisfriends.aop.AOPTAnnoTest" time="0.007"/>
+  <testcase name="testAOPOnPerformer" classname="com.laowuandhisfriends.aop.AOPTAnnoTest" time="0.008"/>
+  <testcase name="testAOPOnMagician" classname="com.laowuandhisfriends.aop.AOPTAnnoTest" time="0.003"/>
   <system-out><![CDATA[The audience is taking their seats!
 The audience is turning off their cellphones!
 The audience is taking their seats!
@@ -10,17 +10,17 @@ The audience is turning off their cellphones!
 Playing Jingle Bells : 
 TOOT TOOT TOOT
 CLAP CLAP CLAP CLAP!
-The performance took 1 milliseconds!
+The performance took 2 milliseconds!
 CLAP CLAP CLAP CLAP!
 Intercepting volunteer's thoughts!
 ]]></system-out>
-  <system-err><![CDATA[四月 10, 2018 11:51:07 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+  <system-err><![CDATA[四月 12, 2018 5:06:25 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-四月 10, 2018 11:51:07 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
-信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@728523d2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a04cca, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6e3d1d5f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7e9aca42, org.springframework.test.context.transaction.TransactionalTestExecutionListener@25daedf0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@269f239d]
-四月 10, 2018 11:51:07 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+四月 12, 2018 5:06:25 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7de173fa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@42b8b536, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@57c2dd5b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23cd35c1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5545ece1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5253e27a]
+四月 12, 2018 5:06:25 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
 信息: Loading XML bean definitions from class path resource [Spring-AOP-Annotation.xml]
-四月 10, 2018 11:51:07 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
-信息: Refreshing org.springframework.context.support.GenericApplicationContext@204e15f4: startup date [Tue Apr 10 23:51:07 CST 2018]; root of context hierarchy
+四月 12, 2018 5:06:25 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.GenericApplicationContext@13bad56e: startup date [Thu Apr 12 17:06:25 CST 2018]; root of context hierarchy
 ]]></system-err>
 </testsuite>

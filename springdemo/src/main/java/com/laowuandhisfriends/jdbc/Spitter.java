@@ -11,6 +11,13 @@ public class Spitter {
     public Spitter() {
     }
 
+    public Spitter(Long id, String username, String password, String fullName) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.fullName = fullName;
+    }
+
     public Long getId() {
         return id;
     }
