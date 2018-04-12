@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.laowuandhisfriends.springmvc.controller.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-12T09:06:26" hostname="kouzi" time="0.741">
+<testsuite name="com.laowuandhisfriends.springmvc.controller.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-12T10:17:25" hostname="kouzi" time="0.711">
   <properties/>
-  <testcase name="showHomePage" classname="com.laowuandhisfriends.springmvc.controller.HomeControllerTest" time="0.741"/>
+  <testcase name="showHomePage" classname="com.laowuandhisfriends.springmvc.controller.HomeControllerTest" time="0.711"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[四月 12, 2018 5:06:25 下午 org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
-信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-四月 12, 2018 5:06:25 下午 org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
-信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7866ba8b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1f3c3cef, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6954402d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6503902a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@287ccce3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@56594647]
-四月 12, 2018 5:06:25 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
-信息: Loading XML bean definitions from class path resource [Spring-servlet.xml]
-四月 12, 2018 5:06:26 下午 org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
-信息: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@60c97785: startup date [Thu Apr 12 17:06:26 CST 2018]; root of context hierarchy
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-信息: Mapped "{[/home]}" onto public java.lang.String com.laowuandhisfriends.springmvc.controller.HomeController.showHomePage(java.util.Map<java.lang.String, java.lang.Object>)
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-信息: Mapped "{[/spitter/spittles],methods=[GET]}" onto public java.lang.String com.laowuandhisfriends.springmvc.controller.SpitterController.listSpittlesForSpitter(java.lang.String,org.springframework.ui.Model)
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-信息: Mapped "{[/spitter],methods=[GET],params=[new]}" onto public java.lang.String com.laowuandhisfriends.springmvc.controller.SpitterController.createSpitterProfile(org.springframework.ui.Model)
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
-信息: Mapped "{[/spitter],methods=[POST]}" onto public java.lang.String com.laowuandhisfriends.springmvc.controller.SpitterController.addSpitterForm(com.laowuandhisfriends.springmvc.entity.Spitter,org.springframework.validation.BindingResult)
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
-信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@60c97785: startup date [Thu Apr 12 17:06:26 CST 2018]; root of context hierarchy
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
-信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@60c97785: startup date [Thu Apr 12 17:06:26 CST 2018]; root of context hierarchy
-四月 12, 2018 5:06:26 下午 org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
-信息: Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  <system-err><![CDATA[四月 12, 2018 6:17:24 下午 org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.9.Final
 ]]></system-err>
 </testsuite>
