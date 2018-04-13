@@ -10,26 +10,12 @@
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="t" uri="http://tiles.apache.org/tags-tiles" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<html>
-<head>
-    <title>Home</title>
-    <style>
-        .left-float {
-            float: left;
-        }
-
-        .right-float {
-            float: right;
-        }
-    </style>
-</head>
-<body>
 <div class="left-float">
     <h2>A global community of friends and strangers</h2>
     <h3>Look at what these people are spitting right now...</h3>
     <ol class="spittle-list">
         <c:forEach var="spittle" items="${spittles}">
-            <s:url value="/spitters/{spitterName}" var="spitter_url">
+            <s:url value="/spitter/{spitterName}" var="spitter_url">
                 <s:param name="spitterName" value="${spittle.spitter.username}"/>
             </s:url>
             <li>
@@ -52,9 +38,7 @@
         </c:forEach>
     </ol>
 </div>
-<div class="right-float">
-    <%--<iframe src="loginForm.jsp"></iframe>--%>
+<%--<div class="right-float">
+    &lt;%&ndash;<iframe src="loginForm.jsp"></iframe>&ndash;%&gt;
     <jsp:include page="loginForm.jsp"/>
-</div>
-</body>
-</html>
+</div>--%>

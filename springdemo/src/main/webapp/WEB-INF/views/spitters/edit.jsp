@@ -22,14 +22,14 @@
                     <th><label for="user_screen_name">Username:</label></th>
                     <td>
                         <sf:input path="username" size="15" maxlength="15" id="user_screen_name"/>
-                        <small id="username_msg">No spaces, please.</small>
+                        <small>No spaces, please.</small>
                         <sf:errors path="username" cssClass="error"/>
                     </td>
                 </tr>
                 <tr>
                     <th><label for="user_password">Password:</label></th>
                     <td>
-                        <sf:input path="password" size="30" showPassword="true" id="user_password"/>
+                        <sf:input path="password" size="30" showPassword="false" id="user_password"/>
                         <small>6 Characters or more (be tricky!)</small>
                         <sf:errors path="password" cssClass="error"/>
                     </td>

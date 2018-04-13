@@ -5,25 +5,24 @@ import com.laowuandhisfriends.springmvc.entity.Spittle;
 import com.laowuandhisfriends.springmvc.service.SpitterService;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 import static java.util.stream.Collectors.toList;
 
 @Service("spitterService")
 public class SpitterServiceImpl implements SpitterService {
 
-    private static List<Spittle> spittleList;
-    private static List<Spitter> spitterList;
+    private static List<Spittle> spittleList = new LinkedList<>();
+    private static List<Spitter> spitterList = new LinkedList<>();
 
     static {
         Spitter spitter1 = new Spitter(1L, "tomcat", "tomcat@123", "SMITH");
         Spitter spitter2 = new Spitter(2L, "java", "java@123", "TOMMY");
         Spitter spitter3 = new Spitter(3L, "oracle", "oracle@123", "Lee");
 
-        spitterList = Arrays.asList(spitter1, spitter2, spitter3);
+        spitterList.add(spitter1);
+        spitterList.add(spitter2);
+        spitterList.add(spitter3);
 
         Spittle spittle1 = new Spittle(spitter1, "tomcat,tomcat@123,SMITH", new Date(System.currentTimeMillis() + 50000000000L));
         Spittle spittle2 = new Spittle(spitter2, "java,java@123,TOMMY", new Date(System.currentTimeMillis() + 20000000000L));
@@ -31,7 +30,11 @@ public class SpitterServiceImpl implements SpitterService {
         Spittle spittle4 = new Spittle(spitter1, "tomcat,tomcat@123,SMITH,tomcat,tomcat@123,SMITH", new Date(System.currentTimeMillis() + 30000000000L));
         Spittle spittle5 = new Spittle(spitter2, "java,java@123,TOMMY,java,java@123,TOMMY", new Date(System.currentTimeMillis() + 10000000000L));
 
-        spittleList = Arrays.asList(spittle1, spittle2, spittle3, spittle4, spittle5);
+        spittleList.add(spittle1);
+        spittleList.add(spittle2);
+        spittleList.add(spittle3);
+        spittleList.add(spittle4);
+        spittleList.add(spittle5);
     }
 
     @Override
@@ -42,8 +45,11 @@ public class SpitterServiceImpl implements SpitterService {
 
     @Override
     public Spitter getSpitter(String username) {
-        return spitterList.stream().filter(spitter -> spitter.getUsername().equals(username))
-                .collect(toList()).get(0);
+        for (Spitter spitter : spitterList) {
+            if (username.equals(spitter.getUsername()))
+                return spitter;
+        }
+        return null;
     }
 
     @Override

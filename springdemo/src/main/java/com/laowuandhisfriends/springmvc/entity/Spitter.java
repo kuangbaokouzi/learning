@@ -12,7 +12,7 @@ public class Spitter {
     private String password;
     @Size(min = 3, max = 50, message = "FullName must be between 3 and 50 characters long.")
     private String fullName;
-    @Pattern(regexp = "[A-Z0-9._%-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}", message = "Invalid email address.")
+    @Pattern(regexp = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}", message = "Invalid email address.")
     private String email;
     private boolean updateByEmail;
 

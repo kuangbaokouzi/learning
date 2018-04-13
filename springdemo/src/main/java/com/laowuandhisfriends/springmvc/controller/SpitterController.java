@@ -25,8 +25,8 @@ public class SpitterController {
         this.spitterService = spitterService;
     }
 
-    @RequestMapping(value = "/spittles", method = GET)
-    public String listSpittlesForSpitter(@RequestParam("spitter") String username, Model model) {
+    @RequestMapping(value = "/{username}/spittles", method = GET)
+    public String listSpittlesForSpitter(@PathVariable String username, Model model) {
         Spitter spitter = spitterService.getSpitter(username);
         model.addAttribute(spitter);
         model.addAttribute(spitterService.getSpittlesForSpitter(username));
@@ -42,10 +42,12 @@ public class SpitterController {
     @RequestMapping(method = POST)
     public String addSpitterFromForm(@Valid Spitter spitter,
                                      BindingResult bindingResult) {
+        System.out.println("@Valid Spitter spitter: " + spitter);
         if (bindingResult.hasErrors()) {
             return "spitters/edit";
         }
-        return "redirect:/spitters/" + spitter.getUsername();
+        spitterService.saveSpitter(spitter);
+        return "redirect:/spitter/" + spitter.getUsername();
     }
 
     @RequestMapping(value = "/{username}", method = GET)
