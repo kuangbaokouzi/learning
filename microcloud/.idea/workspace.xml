@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45a49144-e6da-432a-b5d5-f025d7f6bace" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/com/laowuandhisfriends/api/Dept.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/src/main/java/com/laowuandhisfriends/Consumer_80_StartSpringCloudApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/src/main/java/com/laowuandhisfriends/config/RestConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/src/main/java/com/laowuandhisfriends/controller/ConsumerDeptController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumer-80/tp/log/logback.log.2018-05-10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/laowuandhisfriends/Dept_8001_StartSpringCloudApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/laowuandhisfriends/dao/IDeptDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/laowuandhisfriends/rest/DeptRest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/laowuandhisfriends/service/IDeptService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/laowuandhisfriends/service/impl/IDeptServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/logback.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/com/laowuandhisfriends/Dept.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/src/test/java/com/laowuandhisfriends/service/IDeptServiceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/provider-dept-8001/tp/log/logback.log.2018-05-10" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security/src/main/java/com/laowuandhisfriends/config/WebSecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/model/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/model/src/main/java/com/laowuandhisfriends/springbootdemo/domain/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/persistence/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/persistence/src/main/java/com/laowuandhisfriends/springbootdemo/repository/UserRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/main/java/com/laowuandhisfriends/springbootdemo/SpringBootDemoApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/main/java/com/laowuandhisfriends/springbootdemo/config/RouterFunctionConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/main/java/com/laowuandhisfriends/springbootdemo/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-boot-demo/web/src/test/java/com/laowuandhisfriends/springbootdemo/SpringBootDemoApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/.idea/artifacts/Gradle___com_laowuandhisfriends___spring_security_demo_1_0_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/.idea/artifacts/Gradle___com_laowuandhisfriends___spring_security_demo_1_0_war__exploded_.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/.idea/modules/spring-security-demo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/com/laowuandhisfriends/hello/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/com/laowuandhisfriends/hello/SecurityWebApplicationInitializer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/laowuandhisfriends/hellomvc/HomeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/laowuandhisfriends/hellomvc/MessageSecurityWebApplicationInitializer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/java/com/laowuandhisfriends/hellomvc/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/resources/logback.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/resources/spring-servlet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/WEB-INF/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/resources/css/bootstrap-responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/resources/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/resources/img/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/resources/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../springbootdemo/src/main/java/com/laowuandhisfriends/springboot/Example.java" />
+      <change beforePath="$PROJECT_DIR$/../gradlew-lecture/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gradlew-lecture/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../jdk8/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../jdk8/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../jdk8/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest5.java" afterPath="$PROJECT_DIR$/../jdk8/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest5.java" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/artifacts/Gradle___com_laowuandhisfriends___netty_lecture_1_0_war__exploded_.xml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/artifacts/Gradle___com_laowuandhisfriends___netty_lecture_1_0_war__exploded_.xml" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_main.iml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_main.iml" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_test.iml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_test.iml" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/build.gradle" afterPath="$PROJECT_DIR$/../netty-lecture/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest0.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest0.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest1.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest1.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest2.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest3.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest3.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClient.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder2.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToByteEncoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToByteEncoder.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToStringDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToStringDecoder.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/nio/NioServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/nio/NioServer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClient.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerHanler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerHanler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonDecoder.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonEncoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonEncoder.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/PersonProtocol.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/PersonProtocol.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClient.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Handler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Handler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Reactor.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Reactor.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServer2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServer2.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler2.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerInitializer2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerInitializer2.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/resources/log4j.properties" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileChanges/last-build.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileContent/annotation-processors.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileContent/fileContent.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/buildOutputCleanup/cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springdemo/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/aop/Audience.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/aop/Magician.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/aop/MindReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/aop/Thinker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/aop/Volunteer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/ChooseCity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/City.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Instrument.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Instrumentalist.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Juggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/OneManBand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/PerformanceException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Performer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Piano.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Poem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/PoeticJuggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Saxophone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/SongSelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/Sonnet29.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/di/SpringDI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/hibernate/HinernateSpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/hibernate/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/hibernate/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/jdbc/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/jdbc/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/jdbc/SpitterDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/controller/HomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/controller/SpitterController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/entity/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/entity/Spittle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/service/SpitterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/main/com/laowuandhisfriends/springmvc/service/impl/SpitterServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/test/com/laowuandhisfriends/aop/AOPTAnnoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/test/com/laowuandhisfriends/aop/AOPTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/test/com/laowuandhisfriends/di/SpringDITest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/test/com/laowuandhisfriends/jdbc/SpitterDaoImplTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/classes/java/test/com/laowuandhisfriends/springmvc/controller/HomeControllerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../spring-security-demo/src/main/webapp/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-AOP-Annotation.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-AOP.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-DI-SpEL.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-DI.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-hibernate.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-jdbc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/Spring-servlet.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/aop/Audience.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/aop/Magician.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/aop/MindReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/aop/Thinker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/aop/Volunteer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/ChooseCity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/City.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Instrument.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Instrumentalist.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Juggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/OneManBand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/PerformanceException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Performer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Piano.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Poem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/PoeticJuggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Saxophone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/SongSelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/Sonnet29.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/di/SpringDI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/hibernate/HinernateSpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/hibernate/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/hibernate/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/jdbc/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/jdbc/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/jdbc/SpitterDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/controller/HomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/controller/SpitterController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/entity/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/entity/Spittle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/service/SpitterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/com/laowuandhisfriends/springmvc/service/impl/SpitterServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/classes/jdbc.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/byte-buddy-1.6.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/byte-buddy-agent-1.6.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-dbcp2-2.2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-digester-2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-io-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/commons-pool2-2.5.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/hibernate-core-5.2.16.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/hibernate-validator-6.0.9.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/javassist-3.22.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/mockito-core-2.7.22.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/objenesis-2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-jdbc-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-orm-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-test-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-tx-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-web-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/spring-webmvc-5.0.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-api-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-core-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-jsp-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-request-api-1.0.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-request-jsp-1.0.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-request-servlet-1.0.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-servlet-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/tiles-template-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/home.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/loginForm.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/main_template.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/spitters/edit.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/spitters/view.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/spittles/list.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/views/views.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/exploded/springdemo-1.0.war/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/build/libs/springdemo-1.0.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/aop/Audience.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/aop/Magician.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/aop/MindReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/aop/Thinker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/aop/Volunteer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/ChooseCity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/City.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Instrument.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Instrumentalist.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Juggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/OneManBand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/PerformanceException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Performer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Piano.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Poem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/PoeticJuggler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Saxophone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/SongSelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/Sonnet29.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/di/SpringDI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/hibernate/HinernateSpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/hibernate/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/hibernate/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/jdbc/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/jdbc/SpitterDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/jdbc/SpitterDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/controller/HomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/controller/SpitterController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/entity/Spitter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/entity/Spittle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/service/SpitterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/out/production/classes/com/laowuandhisfriends/springmvc/service/impl/SpitterServiceImpl.class" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/api/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-80/target/" />
+    <ignored path="$PROJECT_DIR$/security/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../jdk8" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../netty-lecture" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../springdemo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="27" />
+    <option name="width" value="1259" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a49144-e6da-432a-b5d5-f025d7f6bace" name="Default" comment="" />
+      <created>1525946466140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525946466140</updated>
+      <workItem from="1525946467890" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="25" width="1321" height="743" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.54857147" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

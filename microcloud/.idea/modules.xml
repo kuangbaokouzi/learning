@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-80/consumer-80.iml" filepath="$PROJECT_DIR$/consumer-80/consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloud.iml" filepath="$PROJECT_DIR$/microcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" filepath="$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
+    </modules>
+  </component>
+</project>
