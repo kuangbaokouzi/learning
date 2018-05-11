@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" external-system-id="GRADLE" name="Gradle : com.laowuandhisfriends : spring-security-demo-1.0.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/spring-security-demo-1.0.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/spring-security-demo-1.0.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-security-demo_main/web/Web Gradle : spring-security-demo-1.0.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-security-demo_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/selenium-support-2.24.1-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/selenium-api-2.34.0.jar" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-web:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-config:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet.jsp.jstl:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-core:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.5.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
