@@ -10,6 +10,6 @@ create table user_inf(
     create_date timestamp not null default current_timestamp,
     username varchar(20) default null,
     primary key(id)
-)ENGINE=INNODB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+)ENGINE=INNODB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 insert into user_inf(id, login_name, password, status, create_date, username) values
 (1,'admin','123456',2,'2018-05-20 09:33:45','超级管理员');
