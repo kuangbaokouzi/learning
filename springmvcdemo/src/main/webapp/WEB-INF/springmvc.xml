@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 打开注解扫描器 -->
+    <context:component-scan base-package="com.entor.springmvcdemo.controller"/>
+
+    <!-- 打开基于注解方式的MVC -->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!-- 根路径映射到login.jsp -->
+    <mvc:view-controller path="/" view-name="login"/>
+
+    <!-- 配置静态资源不被拦截 -->
+    <mvc:resources mapping="/css/**" location="/css/">
+        <mvc:cache-control max-age="3600" cache-public="true"/>
+    </mvc:resources>
+    <mvc:resources mapping="/js/**" location="/js/">
+        <mvc:cache-control max-age="3600" cache-public="true"/>
+    </mvc:resources>
+    <mvc:resources mapping="/img/**" location="/img/">
+        <mvc:cache-control max-age="3600" cache-public="true"/>
+    </mvc:resources>
+
+    <!-- 声明转换器 -->
+    <bean id="conversionSerivce" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+                <bean class="com.entor.springmvcdemo.controller.converter.StringToDateConverter"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 声明格式化 -->
+    <bean id="conversionSerivce2" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="com.entor.springmvcdemo.controller.formatter.DateFomatter"/>
+            </set>
+        </property>
+    </bean>
+
+    <!-- 声明视图解析器bean -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 解析视图方式 -->
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="suffix" value=".jsp"/>
+        <property name="prefix" value="/WEB-INF/"/>
+        <property name="order" value="2"/>
+    </bean>
+    <!-- 文件上传 -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设置上传文件的最大尺寸为5MB -->
+        <property name="maxUploadSize" value="5242880"/>
+        <property name="maxInMemorySize" value="1024"/>
+        <property name="uploadTempDir" value="/upload/temp"/>
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
+</beans>
