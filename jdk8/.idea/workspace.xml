@@ -1,59 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e680ebc-cf4d-498f-af4f-ce91c2b08142" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest4.java" />
-      <change beforePath="$PROJECT_DIR$/../gradlew-lecture/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../gradlew-lecture/.idea/workspace.xml" />
+    <list default="true" id="2154200e-a7d6-4c9b-a627-de3476fec59a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jdk8_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/jdk8_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jdk8_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/jdk8_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/../netty-lecture/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/artifacts/Gradle___com_laowuandhisfriends___netty_lecture_1_0_war__exploded_.xml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/artifacts/Gradle___com_laowuandhisfriends___netty_lecture_1_0_war__exploded_.xml" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_main.iml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_main.iml" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_test.iml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/modules/netty-lecture_test.iml" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../netty-lecture/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/build.gradle" afterPath="$PROJECT_DIR$/../netty-lecture/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest0.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest0.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest1.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest1.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest2.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest3.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/bytebuf/ByteBufTest3.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CodecServerInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClient.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/CoderClientInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyByteToLongDecoder2.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToByteEncoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToByteEncoder.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToStringDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/codechandler/MyLongToStringDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/nio/NioServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/nio/NioServer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClient.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackClientInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerHanler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerHanler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packhandler/PackServerInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonDecoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonEncoder.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/MyPersonEncoder.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/PersonProtocol.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/PersonProtocol.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClient.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClient.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionClientInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/packsolution/SolutionServerInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Handler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Handler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Reactor.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/reactor/Reactor.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServer2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServer2.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerHandler2.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerInitializer2.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/SecondServerInitializer2.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerHandler.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerInitializer.java" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/java/com/laowuandhisfriends/secondexample/ServerToServerInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/../netty-lecture/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/../netty-lecture/src/main/resources/log4j.properties" />
+      <change beforePath="$PROJECT_DIR$/jdk8.iml" afterPath="$PROJECT_DIR$/jdk8.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,63 +31,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Collector.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/stream/Collector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="197" column="7" lean-forward="false" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamTest3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamTest4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>collect</find>
-      <find>collect(</find>
-      <find>peek</find>
-      <find>sum(</find>
-      <find>flat</find>
-      <find>toMap</find>
-      <find>min</find>
-    </findStrings>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -135,12 +39,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.sdkman/candidates/gradle/4.6" />
+        <entry key="$PROJECT_DIR$" value="C:\Program Files\gradle-4.7" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.6" />
+        <entry key="$PROJECT_DIR$" value="4.7" />
       </map>
     </option>
     <option name="availableProjects">
@@ -310,8 +214,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/.gradle/init.gradle" value="867112322" />
-        <entry key="$PROJECT_DIR$" value="4566305570000" />
+        <entry key="$PROJECT_DIR$" value="3053959002328" />
         <entry key="$PROJECT_DIR$/build.gradle" value="606883237" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="41183029" />
       </map>
@@ -335,81 +238,81 @@
               <option name="name" value="jdk8" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/groovy-all-2.4.12.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-process-services-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/ant-launcher-1.9.9.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-model-core-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-tooling-api-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-cli-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-runtime-api-info-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-core-api-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-base-services-groovy-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-messaging-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-docs-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-installation-beacon-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-kotlin-dsl-0.15.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-build-option-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-base-services-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/ant-1.9.9.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-launcher-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-logging-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-jvm-services-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-core-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-model-groovy-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-persistent-cache-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-build-cache-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-resources-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-wrapper-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/gradle-native-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-dependency-management-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-testing-native-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-osgi-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-ivy-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-signing-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-javascript-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-resources-http-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-build-comparison-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-language-scala-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-platform-native-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-plugin-use-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-reporting-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-language-groovy-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-resources-gcs-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-plugins-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-ide-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-build-cache-http-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-platform-play-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-build-init-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-resources-s3-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-announce-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-code-quality-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-plugin-development-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-antlr-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-version-control-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-maven-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-jacoco-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-scala-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-ide-native-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-workers-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-language-java-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-platform-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-ide-play-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-composite-builds-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-testing-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-language-native-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-language-jvm-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-resources-sftp-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-publish-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-ear-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-diagnostics-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-platform-base-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-test-kit-4.6.jar" />
-                  <option value="$USER_HOME$/.sdkman/candidates/gradle/4.6/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="C:/Program Files/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -425,53 +328,13 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="IMPORT" />
-        <entry key="$PROJECT_DIR$/../netty-lecture" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/PredicateTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/SupplierTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/Emp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/OptionalTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/MethodReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/MethodReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterface2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterfaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterfaceImpl2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/PredicateTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest11.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest12.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest4.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -481,25 +344,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="27" />
-    <option name="width" value="1269" />
-    <option name="height" value="692" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1004" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -519,10 +368,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -541,47 +387,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="stream2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Runnable&#9;PSI&#9;JAVA://java.lang.Runnable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.laowuandhisfriends.jdk8.stream2" />
-      <recent name="com.laowuandhisfriends.jdk8.methodpreference" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mygit\jdk8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,107 +418,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamTest4">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.laowuandhisfriends.jdk8.stream2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.laowuandhisfriends.jdk8.stream2.StreamTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8_main" />
-      <envs />
-    </configuration>
-    <configuration name="StreamTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.laowuandhisfriends.jdk8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.laowuandhisfriends.jdk8.stream.StreamTest12" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8_main" />
-      <envs />
-    </configuration>
-    <configuration name="StreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.laowuandhisfriends.jdk8.stream2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.laowuandhisfriends.jdk8.stream2.StreamTest2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8_main" />
-      <envs />
-    </configuration>
-    <configuration name="StreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.laowuandhisfriends.jdk8.stream2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.laowuandhisfriends.jdk8.stream2.StreamTest3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8_main" />
-      <envs />
-    </configuration>
-    <configuration name="StreamTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.laowuandhisfriends.jdk8.stream2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.laowuandhisfriends.jdk8.stream2.StreamTest4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8_main" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -772,84 +499,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StreamTest12" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StreamTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StreamTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StreamTest3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StreamTest4" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StreamTest4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StreamTest3" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StreamTest2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StreamTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StreamTest12" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -859,120 +508,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e680ebc-cf4d-498f-af4f-ce91c2b08142" name="Default" comment="" />
-      <created>1522756479444</created>
+      <changelist id="2154200e-a7d6-4c9b-a627-de3476fec59a" name="Default" comment="" />
+      <created>1526980291034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522756479444</updated>
-      <workItem from="1522756481211" duration="12509000" />
-      <workItem from="1522801974889" duration="26273000" />
-      <workItem from="1522848152168" duration="1646000" />
-      <workItem from="1522849858720" duration="437000" />
-      <workItem from="1522850391560" duration="5282000" />
-      <workItem from="1522893863698" duration="5747000" />
-      <workItem from="1522991403638" duration="3054000" />
+      <updated>1526980291034</updated>
+      <workItem from="1526980292516" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54948000" />
+    <option name="totallyTimeSpent" value="138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="27" width="1366" height="700" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6695804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6695804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -982,375 +564,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/Emp.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/FunctionTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/OptionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/OptionalTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/PredicateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/PredicateTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/StringComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/SupplierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/general/SwingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterface2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/defaultmethod/MyInterfaceImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/MethodReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/methodpreference/StudentTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="134" column="25" lean-forward="false" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream/StreamTest12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="30" column="78" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="803" column="16" lean-forward="false" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/function/ToIntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="475" column="17" lean-forward="false" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="1183" column="43" lean-forward="false" selection-start-line="1183" selection-start-column="43" selection-end-line="1183" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27025">
-          <caret line="1232" column="22" lean-forward="false" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10511">
-          <caret line="489" column="35" lean-forward="false" selection-start-line="489" selection-start-column="32" selection-end-line="489" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/function/BiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/function/BinaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/EnumSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="234" column="49" lean-forward="false" selection-start-line="234" selection-start-column="49" selection-end-line="234" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1116" column="29" lean-forward="false" selection-start-line="1116" selection-start-column="29" selection-end-line="1116" selection-end-column="29" />
-          <folding>
-            <element signature="e#46897#46898#0" expanded="false" />
-            <element signature="e#46944#46945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="806" column="13" lean-forward="false" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
+        <state relative-caret-position="488">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="488" column="26" lean-forward="false" selection-start-line="488" selection-start-column="26" selection-end-line="488" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1209" column="30" lean-forward="false" selection-start-line="1209" selection-start-column="30" selection-end-line="1209" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_161/src.zip!/java/util/stream/Collector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="197" column="7" lean-forward="false" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/MyCollector3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/laowuandhisfriends/jdk8/stream2/StreamTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
