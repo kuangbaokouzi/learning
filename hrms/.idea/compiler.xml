@@ -9,5 +9,8 @@
         <module name="hrms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hrms" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

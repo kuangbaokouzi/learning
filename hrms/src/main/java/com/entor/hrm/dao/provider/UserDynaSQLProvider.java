@@ -25,7 +25,7 @@ public class UserDynaSQLProvider {
                     if (!StringUtils.isEmpty(user.getLoginName())) {
                         WHERE(" username like concat ('%',#{user.username},'%') ");
                     }
-                    if (!StringUtils.isEmpty(user.getStatus())) {
+                    if (user.getStatus() != null) {
                         WHERE(" status like concat ('%',#{user.status},'%') ");
                     }
                 }
@@ -53,7 +53,7 @@ public class UserDynaSQLProvider {
                     if (!StringUtils.isEmpty(user.getLoginName())) {
                         WHERE(" username like concat ('%',#{user.username},'%') ");
                     }
-                    if (!StringUtils.isEmpty(user.getStatus())) {
+                    if (user.getStatus() != null) {
                         WHERE(" status like concat ('%',#{user.status},'%') ");
                     }
                 }
@@ -77,7 +77,7 @@ public class UserDynaSQLProvider {
             if (!StringUtils.isEmpty(user.getUsername())) {
                 VALUES("username", "#{username}");
             }
-            if (!StringUtils.isEmpty(user.getStatus())) {
+            if (user.getStatus() != null) {
                 VALUES("status", "#{status}");
             }
             if (!StringUtils.isEmpty(user.getLoginName())) {
@@ -101,7 +101,7 @@ public class UserDynaSQLProvider {
             if (!StringUtils.isEmpty(user.getUsername())) {
                 SET("username = #{username}");
             }
-            if (!StringUtils.isEmpty(user.getStatus())) {
+            if (user.getStatus() != null) {
                 SET("status = #{status}");
             }
             if (!StringUtils.isEmpty(user.getLoginName())) {
@@ -110,7 +110,7 @@ public class UserDynaSQLProvider {
             if (!StringUtils.isEmpty(user.getPassword())) {
                 SET("password = #{password}");
             }
-            if (!StringUtils.isEmpty(user.getCreateData())) {
+            if (user.getCreateData() != null) {
                 SET("create_date = #{createDate}");
             }
             WHERE(" id = #{id}");
