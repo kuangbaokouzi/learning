@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- 声明将进酒 -->
+	<bean id="poem" class="com.entor.springdemo.QiangJinJiu" />
+
+	<!-- 声明一个bean，表示一个杂技演员 -->
+	<bean id="zhangsan" class="com.entor.springdemo.Juggler">
+		<constructor-arg value="5" />
+	</bean>
+	<bean id="lisi" class="com.entor.springdemo.Juggler" />
+
+	<!-- 声明赵四，他是一个会朗诵的杂技演员 -->
+	<bean id="zhaosi" class="com.entor.springdemo.PoeticJuggler">
+		<constructor-arg value="15" />
+		<constructor-arg ref="poem" />
+	</bean>
+
+	<!-- 声明王五，他是一个杂技演员 -->
+	<bean id="wangwu" class="com.entor.springdemo.Juggler"
+		p:beanBages="20" />
+
+	<!-- 声明钱八，他是一个杂技演员 -->
+	<bean id="qianba" class="com.entor.springdemo.Juggler">
+		<property name="beanBages" value="25" />
+	</bean>
+
+	<!-- 声明舞台 -->
+	<bean id="stage" class="com.entor.springdemo.Stage"
+		factory-method="getInstance" />
+	<!-- 声明钢琴 -->
+	<bean id="piano" class="com.entor.springdemo.Piano" />
+	<!-- 声明吉他 -->
+	<bean id="guitar" class="com.entor.springdemo.Guitar" />
+	<!-- 声明架子鼓 -->
+	<bean id="drum" class="com.entor.springdemo.Drum" />
+	<!-- 声明乐队 -->
+	<bean id="oneManBand" class="com.entor.springdemo.OneManBand">
+		<property name="instrumentCollection">
+			<list>
+				<ref bean="piano" />
+				<ref bean="guitar" />
+				<ref bean="drum" />
+			</list>
+		</property>
+		<property name="instrumentList">
+			<list>
+				<ref bean="piano" />
+				<ref bean="guitar" />
+				<ref bean="drum" />
+			</list>
+		</property>
+		<property name="instrumentArray">
+			<array>
+				<ref bean="piano" />
+				<ref bean="guitar" />
+				<ref bean="drum" />
+			</array>
+		</property>
+		<property name="instrumentMap">
+			<map>
+				<entry key="piano" value-ref="piano" />
+				<entry key="guitar" value-ref="guitar" />
+				<!-- <entry key="drum" value-ref="drum" /> -->
+				<entry key="drum">
+					<null />
+				</entry>
+			</map>
+		</property>
+		<property name="instrumentProps">
+			<props>
+				<prop key="piano">piano</prop>
+				<prop key="guitar">guitar</prop>
+				<prop key="drum">piano</prop>
+			</props>
+		</property>
+	</bean>
+	<!-- 声明奏者 -->
+	<bean id="laozhang" class="com.entor.springdemo.Instrumentalist">
+		<property name="song" value="#{'my heart will go on'}" />
+		<property name="instrument">
+			<bean class="com.entor.springdemo.Piano" />
+		</property>
+	</bean>
+	<bean id="saxophone" class="com.entor.springdemo.Saxophone" />
+	<!-- 声明奏者 -->
+	<bean id="laowang" class="com.entor.springdemo.Instrumentalist">
+		<property name="song"
+			value="#{laozhang.song?.toUpperCase() + '' + 123 + 'bla bla bla'}" />
+		<property name="instrument" value="#{saxophone}" />
+	</bean>
+	<!-- 声明计算器 -->
+	<bean id="calculator" class="com.entor.springdemo.Calculator">
+		<property name="pi" value="#{T(java.lang.Math).PI}" />
+		<property name="sum" value="#{1 + 2 * 3 / 4 % 5}" />
+		<property name="random" value="#{T(java.lang.Math).random()}" />
+		<property name="circleArea" value="#{T(java.lang.Math).PI * 2 * 2}" />
+		<!-- <property name="judge" value="#{T(java.lang.Math).random() > 0.5}" 
+			/> -->
+		<!-- <property name="judge" value="#{T(java.lang.Math).random() gt 0.5}" 
+			/> -->
+		<property name="judge" value="#{1 lt 0.5 or 0.5 lt 1}" />
+		<property name="result"
+			value="#{laowang.song?.length() > 5 ? '老王的歌曲名长度大于5' : '老王的歌曲名长度不大于5'}" />
+		<property name="regex"
+			value="#{ '123@123.com' matches '[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+' }" />
+	</bean>
+	<!-- 声明城市列表 -->
+	<util:list id="cities">
+		<bean class="com.entor.springdemo.City" p:name="南宁" p:state="CN"
+			p:population="7134979" />
+		<bean class="com.entor.springdemo.City" p:name="拉斯维加斯" p:state="US"
+			p:population="583756"></bean>
+		<bean class="com.entor.springdemo.City" p:name="温哥华" p:state="CA"
+			p:population="632000" />
+		<bean class="com.entor.springdemo.City" p:name="东京" p:state="JP"
+			p:population="13500000" />
+		<bean class="com.entor.springdemo.City" p:name="苏州" p:state="CN"
+			p:population="10684000" />
+	</util:list>
+	<!-- 声明城市 -->
+	<bean id="city" class="com.entor.springdemo.City" p:chosedCity="#{cities[1]}" />
+	<!-- 声明Properties -->
+	<util:properties id="jdbcProps" location="classpath:jdbc.properties" />
+	<!-- 声明JDBC连接器 -->
+	<bean id="jdbc" class="com.entor.springdemo.JdbcConnector"
+		p:driverClass="#{jdbcProps['jdbc.driverClass']}" p:url="#{jdbcProps['jdbc.url']}"
+		p:user="#{jdbcProps['jdbc.user']}" p:password="#{jdbcProps['jdbc.password']}" />
+	<!-- 声明bigCity -->
+	<bean id="bigCity" class="com.entor.springdemo.City" p:bigCities="#{cities.?[population gt 10000000]}" />
+</beans>

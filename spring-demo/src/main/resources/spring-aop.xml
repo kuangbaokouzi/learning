@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- 声明接入点bean -->
+	<bean id="laozhang" class="com.entor.springdemo.Instrumentalist">
+		<property name="song" value="#{'凉凉'}" />
+		<property name="instrument">
+			<bean class="com.entor.springdemo.Piano" />
+		</property>
+	</bean>
+
+	<!-- 声明切面bean -->
+	<bean id="audience" class="com.entor.springdemo.Audience" />
+
+	<!-- 声明切面 -->
+	<aop:config proxy-target-class="true">
+		<aop:aspect ref="audience">
+			<aop:pointcut
+				expression="execution(* com.entor.springdemo.Performer.perform(..))"
+				id="audience_pointcut" />
+			<!-- 前置通知 -->
+			<aop:before method="takeSeat" pointcut-ref="audience_pointcut" />
+			<!-- 返回通知 -->
+			<aop:after-returning method="clap" pointcut-ref="audience_pointcut" />
+			<!-- 异常通知 -->
+			<aop:after-throwing method="shock" pointcut-ref="audience_pointcut" />
+			<!-- 后置通知 -->
+			<aop:after method="leave" pointcut-ref="audience_pointcut" />
+			<aop:around method="around" pointcut-ref="audience_pointcut" />
+		</aop:aspect>
+	</aop:config>
+</beans>
