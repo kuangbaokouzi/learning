@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.entor.mybatisdemo.mapper.UserMapper">
+
+    <!-- 非自动映射 -->
+    <resultMap id="userMap" type="User">
+        <id property="id" column="id" javaType="int"/>
+        <result property="createDate" column="create_date" javaType="date"/>
+    </resultMap>
+
+    <sql id="userColumns">`username`,`password`</sql>
+
+    <select id="getByIdForMap" resultType="hashMap" parameterType="int">
+      select  * from `user` where id = #{id}
+    </select>
+
+    <select id="getByIdForUser" resultMap="userMap" parameterType="int">
+        select  * from `user` where id = #{id}
+    </select>
+
+    <insert id="insertUser" parameterType="User" flushCache="true" statementType="PREPARED"
+            useGeneratedKeys="true" keyColumn="id" keyProperty="id" timeout="20">
+        insert into `user`(
+        <include refid="userColumns"/>
+        ) values (#{username}, #{password})
+    </insert>
+
+    <update id="updateUser" parameterType="User" flushCache="true" statementType="PREPARED" timeout="20">
+        update `user`
+        <set>
+            <if test="username != null">`username` = #{username},</if>
+            <if test="password != null">`password` = #{password},</if>
+            <if test="createDate != null">`create_date` = #{createDate}</if>
+        </set>
+        where `id` = #{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="int" flushCache="true" statementType="PREPARED" timeout="20">
+        delete from `user` where `id` = #{id}
+    </delete>
+
+    <select id="findUser" parameterType="User" resultMap="userMap">
+        select * from `user`
+        <where>
+            <if test="username != null">`username` like CONCAT(CONCAT('%',#{username}),'%')</if>
+        </where>
+    </select>
+
+    <select id="findAllUser" resultMap="userMap">
+        select * from `user`
+    </select>
+</mapper>
